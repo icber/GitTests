@@ -14,6 +14,8 @@
 		1B66FCE6213FD75C00E64257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B66FCE4213FD75C00E64257 /* LaunchScreen.storyboard */; };
 		1B66FCE9213FD75C00E64257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B66FCE8213FD75C00E64257 /* main.m */; };
 		1B66FCF3213FD75C00E64257 /* GitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B66FCF2213FD75C00E64257 /* GitTestsTests.m */; };
+		1B66FD00213FDB5700E64257 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B66FCFE213FDB5700E64257 /* testViewController.m */; };
+		1B66FD01213FDB5700E64257 /* testViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B66FCFF213FDB5700E64257 /* testViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		1B66FCEE213FD75C00E64257 /* GitTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B66FCF2213FD75C00E64257 /* GitTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestsTests.m; sourceTree = "<group>"; };
 		1B66FCF4213FD75C00E64257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B66FCFD213FDB5700E64257 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		1B66FCFE213FDB5700E64257 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		1B66FCFF213FDB5700E64257 /* testViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,9 @@
 				1B66FCE4213FD75C00E64257 /* LaunchScreen.storyboard */,
 				1B66FCE7213FD75C00E64257 /* Info.plist */,
 				1B66FCE8213FD75C00E64257 /* main.m */,
+				1B66FCFD213FDB5700E64257 /* testViewController.h */,
+				1B66FCFE213FDB5700E64257 /* testViewController.m */,
+				1B66FCFF213FDB5700E64257 /* testViewController.xib */,
 			);
 			path = GitTests;
 			sourceTree = "<group>";
@@ -185,6 +193,7 @@
 			files = (
 				1B66FCE6213FD75C00E64257 /* LaunchScreen.storyboard in Resources */,
 				1B66FCE3213FD75C00E64257 /* Assets.xcassets in Resources */,
+				1B66FD01213FDB5700E64257 /* testViewController.xib in Resources */,
 				1B66FCE1213FD75A00E64257 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +214,7 @@
 			files = (
 				1B66FCDE213FD75A00E64257 /* ViewController.m in Sources */,
 				1B66FCE9213FD75C00E64257 /* main.m in Sources */,
+				1B66FD00213FDB5700E64257 /* testViewController.m in Sources */,
 				1B66FCDB213FD75A00E64257 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
