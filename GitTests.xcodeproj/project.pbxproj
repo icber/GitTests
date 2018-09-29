@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E6A665F410D45A88C44ABA /* libPods-GitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E07691C067E65AA0220AAB1 /* libPods-GitTests.a */; };
 		1B66FCDB213FD75A00E64257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B66FCDA213FD75A00E64257 /* AppDelegate.m */; };
 		1B66FCDE213FD75A00E64257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B66FCDD213FD75A00E64257 /* ViewController.m */; };
 		1B66FCE1213FD75A00E64257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B66FCDF213FD75A00E64257 /* Main.storyboard */; };
@@ -16,6 +17,16 @@
 		1B66FCF3213FD75C00E64257 /* GitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B66FCF2213FD75C00E64257 /* GitTestsTests.m */; };
 		1B66FD00213FDB5700E64257 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B66FCFE213FDB5700E64257 /* testViewController.m */; };
 		1B66FD01213FDB5700E64257 /* testViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B66FCFF213FDB5700E64257 /* testViewController.xib */; };
+		1BFCFB0D2146044E002FA126 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCFB002146044D002FA126 /* WMPageController.m */; };
+		1BFCFB0E2146044E002FA126 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCFB012146044D002FA126 /* UIViewController+WMPageController.m */; };
+		1BFCFB0F2146044E002FA126 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCFB072146044D002FA126 /* WMMenuItem.m */; };
+		1BFCFB102146044E002FA126 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCFB082146044D002FA126 /* WMScrollView.m */; };
+		1BFCFB112146044E002FA126 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCFB092146044D002FA126 /* WMMenuView.m */; };
+		1BFCFB122146044E002FA126 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCFB0A2146044D002FA126 /* WMProgressView.m */; };
+		1BFCFB15214604A2002FA126 /* GitScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFCFB14214604A2002FA126 /* GitScrollView.m */; };
+		1BFCFB5A21466BA6002FA126 /* animation-w1440-h1080.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BFCFB5921466BA5002FA126 /* animation-w1440-h1080.json */; };
+		1BFD3874214213260043FC3D /* asdf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BFD3873214213260043FC3D /* asdf.jpg */; };
+		D04A57B2BF6AD1430ED97ED3 /* libPods-GitTestsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72679847AA5A3529EC124E7C /* libPods-GitTestsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08E8DF1C67B595CF0E1E1BCB /* Pods-GitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTests.release.xcconfig"; path = "Target Support Files/Pods-GitTests/Pods-GitTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B66FCD6213FD75A00E64257 /* GitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B66FCD9213FD75A00E64257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B66FCDA213FD75A00E64257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +57,27 @@
 		1B66FCFD213FDB5700E64257 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		1B66FCFE213FDB5700E64257 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		1B66FCFF213FDB5700E64257 /* testViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testViewController.xib; sourceTree = "<group>"; };
+		1BFCFB002146044D002FA126 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		1BFCFB012146044D002FA126 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WMPageController.m"; sourceTree = "<group>"; };
+		1BFCFB032146044D002FA126 /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		1BFCFB042146044D002FA126 /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		1BFCFB052146044D002FA126 /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		1BFCFB062146044D002FA126 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		1BFCFB072146044D002FA126 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		1BFCFB082146044D002FA126 /* WMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		1BFCFB092146044D002FA126 /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		1BFCFB0A2146044D002FA126 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		1BFCFB0B2146044D002FA126 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		1BFCFB0C2146044D002FA126 /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WMPageController.h"; sourceTree = "<group>"; };
+		1BFCFB13214604A2002FA126 /* GitScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitScrollView.h; sourceTree = "<group>"; };
+		1BFCFB14214604A2002FA126 /* GitScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitScrollView.m; sourceTree = "<group>"; };
+		1BFCFB5921466BA5002FA126 /* animation-w1440-h1080.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "animation-w1440-h1080.json"; sourceTree = "<group>"; };
+		1BFD3873214213260043FC3D /* asdf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asdf.jpg; sourceTree = "<group>"; };
+		4E07691C067E65AA0220AAB1 /* libPods-GitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72679847AA5A3529EC124E7C /* libPods-GitTestsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitTestsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7668CF994FADABB6CDA6DC40 /* Pods-GitTestsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTestsTests.debug.xcconfig"; path = "Target Support Files/Pods-GitTestsTests/Pods-GitTestsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1AEC74EF368CA59CEEEFEEF /* Pods-GitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTests.debug.xcconfig"; path = "Target Support Files/Pods-GitTests/Pods-GitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D83701C71F89FCFF9309A1AB /* Pods-GitTestsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTestsTests.release.xcconfig"; path = "Target Support Files/Pods-GitTestsTests/Pods-GitTestsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E6A665F410D45A88C44ABA /* libPods-GitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04A57B2BF6AD1430ED97ED3 /* libPods-GitTestsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +106,8 @@
 				1B66FCD8213FD75A00E64257 /* GitTests */,
 				1B66FCF1213FD75C00E64257 /* GitTestsTests */,
 				1B66FCD7213FD75A00E64257 /* Products */,
+				5A3387A4EF001BFC5967686F /* Pods */,
+				729AAC290B24AEEE95EAB955 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +123,9 @@
 		1B66FCD8213FD75A00E64257 /* GitTests */ = {
 			isa = PBXGroup;
 			children = (
+				1BFCFB5B214675F9002FA126 /* resu */,
+				1BFCFAFF2146044D002FA126 /* WMPageController */,
+				1BFD3873214213260043FC3D /* asdf.jpg */,
 				1B66FCD9213FD75A00E64257 /* AppDelegate.h */,
 				1B66FCDA213FD75A00E64257 /* AppDelegate.m */,
 				1B66FCDC213FD75A00E64257 /* ViewController.h */,
@@ -98,6 +138,8 @@
 				1B66FCFD213FDB5700E64257 /* testViewController.h */,
 				1B66FCFE213FDB5700E64257 /* testViewController.m */,
 				1B66FCFF213FDB5700E64257 /* testViewController.xib */,
+				1BFCFB13214604A2002FA126 /* GitScrollView.h */,
+				1BFCFB14214604A2002FA126 /* GitScrollView.m */,
 			);
 			path = GitTests;
 			sourceTree = "<group>";
@@ -111,6 +153,61 @@
 			path = GitTestsTests;
 			sourceTree = "<group>";
 		};
+		1BFCFAFF2146044D002FA126 /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCFB002146044D002FA126 /* WMPageController.m */,
+				1BFCFB012146044D002FA126 /* UIViewController+WMPageController.m */,
+				1BFCFB022146044D002FA126 /* WMMenuView */,
+				1BFCFB0B2146044D002FA126 /* WMPageController.h */,
+				1BFCFB0C2146044D002FA126 /* UIViewController+WMPageController.h */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		1BFCFB022146044D002FA126 /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCFB032146044D002FA126 /* WMScrollView.h */,
+				1BFCFB042146044D002FA126 /* WMMenuItem.h */,
+				1BFCFB052146044D002FA126 /* WMMenuView.h */,
+				1BFCFB062146044D002FA126 /* WMProgressView.h */,
+				1BFCFB072146044D002FA126 /* WMMenuItem.m */,
+				1BFCFB082146044D002FA126 /* WMScrollView.m */,
+				1BFCFB092146044D002FA126 /* WMMenuView.m */,
+				1BFCFB0A2146044D002FA126 /* WMProgressView.m */,
+			);
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
+		1BFCFB5B214675F9002FA126 /* resu */ = {
+			isa = PBXGroup;
+			children = (
+				1BFCFB5921466BA5002FA126 /* animation-w1440-h1080.json */,
+			);
+			path = resu;
+			sourceTree = "<group>";
+		};
+		5A3387A4EF001BFC5967686F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1AEC74EF368CA59CEEEFEEF /* Pods-GitTests.debug.xcconfig */,
+				08E8DF1C67B595CF0E1E1BCB /* Pods-GitTests.release.xcconfig */,
+				7668CF994FADABB6CDA6DC40 /* Pods-GitTestsTests.debug.xcconfig */,
+				D83701C71F89FCFF9309A1AB /* Pods-GitTestsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		729AAC290B24AEEE95EAB955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E07691C067E65AA0220AAB1 /* libPods-GitTests.a */,
+				72679847AA5A3529EC124E7C /* libPods-GitTestsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B66FCF7213FD75C00E64257 /* Build configuration list for PBXNativeTarget "GitTests" */;
 			buildPhases = (
+				9415AC7E061A0040E5FE837A /* [CP] Check Pods Manifest.lock */,
 				1B66FCD2213FD75A00E64257 /* Sources */,
 				1B66FCD3213FD75A00E64257 /* Frameworks */,
 				1B66FCD4213FD75A00E64257 /* Resources */,
@@ -135,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B66FCFA213FD75C00E64257 /* Build configuration list for PBXNativeTarget "GitTestsTests" */;
 			buildPhases = (
+				B4883207120D9175F4B3AA87 /* [CP] Check Pods Manifest.lock */,
 				1B66FCEA213FD75C00E64257 /* Sources */,
 				1B66FCEB213FD75C00E64257 /* Frameworks */,
 				1B66FCEC213FD75C00E64257 /* Resources */,
@@ -192,9 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B66FCE6213FD75C00E64257 /* LaunchScreen.storyboard in Resources */,
+				1BFD3874214213260043FC3D /* asdf.jpg in Resources */,
 				1B66FCE3213FD75C00E64257 /* Assets.xcassets in Resources */,
 				1B66FD01213FDB5700E64257 /* testViewController.xib in Resources */,
 				1B66FCE1213FD75A00E64257 /* Main.storyboard in Resources */,
+				1BFCFB5A21466BA6002FA126 /* animation-w1440-h1080.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,15 +308,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9415AC7E061A0040E5FE837A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4883207120D9175F4B3AA87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitTestsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B66FCD2213FD75A00E64257 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFCFB0F2146044E002FA126 /* WMMenuItem.m in Sources */,
+				1BFCFB112146044E002FA126 /* WMMenuView.m in Sources */,
 				1B66FCDE213FD75A00E64257 /* ViewController.m in Sources */,
+				1BFCFB15214604A2002FA126 /* GitScrollView.m in Sources */,
+				1BFCFB0D2146044E002FA126 /* WMPageController.m in Sources */,
 				1B66FCE9213FD75C00E64257 /* main.m in Sources */,
 				1B66FD00213FDB5700E64257 /* testViewController.m in Sources */,
 				1B66FCDB213FD75A00E64257 /* AppDelegate.m in Sources */,
+				1BFCFB122146044E002FA126 /* WMProgressView.m in Sources */,
+				1BFCFB0E2146044E002FA126 /* UIViewController+WMPageController.m in Sources */,
+				1BFCFB102146044E002FA126 /* WMScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,10 +516,12 @@
 		};
 		1B66FCF8213FD75C00E64257 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AEC74EF368CA59CEEEFEEF /* Pods-GitTests.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,10 +534,12 @@
 		};
 		1B66FCF9213FD75C00E64257 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E8DF1C67B595CF0E1E1BCB /* Pods-GitTests.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,6 +552,7 @@
 		};
 		1B66FCFB213FD75C00E64257 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7668CF994FADABB6CDA6DC40 /* Pods-GitTestsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -419,6 +571,7 @@
 		};
 		1B66FCFC213FD75C00E64257 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83701C71F89FCFF9309A1AB /* Pods-GitTestsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
